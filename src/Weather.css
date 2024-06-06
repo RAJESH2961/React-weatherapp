@@ -113,6 +113,30 @@ body{
     text-align: center;
 }
 .humidity-text,
-.wind-text{
+.wind-text {
     text-align: center;
+    margin-top: 5px;
 }
+.loading-message,
+.error,
+.city-not-found {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.loading-message {
+    color: blue;
+}
+.error {
+    color: red;
+}
+.city-not-found {
+    color: darkred;
+}
+
+.message-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
