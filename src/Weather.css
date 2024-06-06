@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0px 5px 4px rgb(0, 0, 0);
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+.input-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.input-city{
+    flex: 1; /* It will take maximum available space */
+    height: 30px;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    padding: 5px;
+}
+.search-icon{
+    /* padding: 10px; */
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.search-icon img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    /* margin-top: 5px; */
+}
+.image{
+    text-align: center;
+    /* width: 160px; */
+    height: 150px;
+    margin-bottom: 10px;
+}
+.image img{
+    width: 160px;
+    height: 160px;
+}
+
+.temp,
+.city,
+.country{
+    margin-top: 5px;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.temp{
+    font-weight: 500px;
+}
+.city{
+    color: orangered;
+    /* font-style: oblique; */
+    font-weight: 400px;
+}
+.country{
+    color: rgb(0, 0, 0);
+    font-weight: 700px;
+    font-size: 1.4rem;
+}
+.coordinates{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* text-align: center; */
+}
+/* .coordinates,.long{margin-left: 9px;} */
+.coordinates div{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+}
+.coordinates div span{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 7px;
+}
+.coordinates div span:nth-child(2){
+    font-size: 26px;
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+}
+.data-container img{
+    width: 50px;
+    height: 50px;
+}
+.text{
+    font-weight: 600;
+    text-align: center;
+}
+.humidity-text,
+.wind-text{
+    text-align: center;
+}
